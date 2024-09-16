@@ -1,0 +1,329 @@
+/* nav section start */
+@media screen and (max-width: 991px) {
+  .container {
+    margin: 60px auto;
+  }
+  .navbar {
+    padding: 10px;
+    margin: 12px auto;
+  }
+  .nav-toggle {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .header-section {
+    gap: 40px;
+  }
+  .img-name img {
+    width: 164px;
+    height: 180px;
+  }
+  .font-name,
+  .font-name-color {
+    width: 164px;
+    height: 174px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+  img#map {
+    width: 60rem;
+  }
+
+  .company-name-list {
+    margin-top: 50px;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .menu {
+    font-size: 14px;
+    top: 75px;
+  }
+  .menu {
+    justify-content: initial;
+    position: fixed;
+    width: 100%;
+    z-index: 9998;
+    left: -100%;
+    background-color: #fff;
+    transition: all 0.5s ease;
+    padding: 20px 0px;
+    height: 100%;
+  }
+  .menu.active {
+    left: 0;
+  }
+  .navbar {
+    overflow: initial;
+  }
+  .dropdown-submenu-menu {
+    left: 10%;
+    top: 100%;
+    margin-top: 5px;
+  }
+  .secondary-button {
+    margin-top: 20px;
+    margin-bottom: 50vh;
+  }
+
+  .adder-icon {
+    display: none;
+  }
+  .adder-icon1 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .adder-icon1 i {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 12px 14px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  /* nav section end */
+
+  /* home page start */
+
+  /* home-section start */
+  .home-section {
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 140px;
+  }
+  .home-section .home-left {
+    width: 100%;
+  }
+  .home-section .home-right {
+    width: 100%;
+  }
+  .home-section .home-left .home-btn {
+    display: flex;
+  }
+  /* home-section end */
+
+  /* whytake-section start */
+
+  .whytake-section .why-take {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  .whytake-section .why-take .why-take-left {
+    width: 100%;
+  }
+  .whytake-section .why-take .why-take-right {
+    width: 100%;
+  }
+  .whytake-section .whytake-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .whytake-section h2 {
+    line-height: 46px;
+  }
+
+  /* whytake-section end */
+
+  /* pricing section start */
+  .card .card-container .box-color {
+    margin-top: 25px;
+  }
+  /* pricing section start */
+
+  /* card-section start */
+
+  .button {
+    gap: 35px;
+    flex-wrap: wrap;
+  }
+  /* card-section start */
+
+  /* experience section start */
+  .experience-section .experience {
+    flex-wrap: wrap;
+  }
+  .experience-section .experience .exper-left {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .experience-section .experience .exper-right {
+    width: 100%;
+  }
+  /* experience section end */
+
+  /* notjust-section start */
+  .notjust-section .card .card-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .notjust-section .card .card-container .box {
+    width: 400px;
+  }
+
+  /* notjust-section end */
+  /* contact-main-section start */
+  .contact-main-section {
+    flex-wrap: wrap;
+  }
+
+  .left {
+    flex-basis: 100%;
+  }
+  .right {
+    flex-basis: 100%;
+  }
+  .contact-hr {
+    display: none;
+  }
+  /* contact-main-section end */
+  .image2 img {
+    position: absolute;
+    left: 22%;
+    top: 50px;
+    z-index: 1;
+  }
+  .wrting-sect p {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    z-index: 80;
+    font-size: 14px;
+  }
+  .image1 img {
+    position: absolute;
+    left: 13%;
+    z-index: 5;
+    top: 45px;
+  }
+  /* home page end */
+}
+
+@media screen and (max-width: 768px) {
+  .image1 img {
+    position: absolute;
+    left: 9%;
+    z-index: 5;
+    top: 11px;
+  }
+  .wrting-sect p {
+    position: absolute;
+    top: 164px;
+    left: 25%;
+    z-index: 80;
+    font-size: 14px;
+  }
+  .image2 img {
+    position: absolute;
+    left: 13%;
+    top: 50px;
+    z-index: 1;
+  }
+  .whytake-section .why-take {
+    margin-top: 40px;
+  }
+  .whytake-section br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .upper-top {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .reason br {
+    display: none;
+  }
+
+  .upper-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image1 img {
+    width: 24%;
+    left: 1%;
+    top: 65px;
+  }
+  .image2 img {
+    width: 100%;
+    left: 1%;
+    top: 68px;
+    height: 440px;
+  }
+  .wrting-sect p {
+    width: 80%;
+    left: 10%;
+    top: 190px;
+  }
+}
+@media screen and (max-width: 448px) {
+  .container {
+    margin: 40px auto;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .navbar {
+    padding: 10px;
+    margin: 12px auto;
+  }
+  .home-section br {
+    display: none;
+  }
+  .home-section .home-left p {
+    font-size: 14px;
+  }
+  .home-section {
+    margin-top: 120px;
+  }
+
+  .right .input-part {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .right {
+    padding: 0px;
+  }
+  .right .input-part .first input {
+    margin-bottom: 20px;
+  }
+  .right1 h2 {
+    font-size: 55px;
+  }
+  .wrting-sect p {
+    font-size: 13px;
+    top: 180px;
+  }
+  .image1 img {
+    top: 95px;
+  }
+}
